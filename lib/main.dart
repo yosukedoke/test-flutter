@@ -73,7 +73,7 @@ class MyHomePage extends StatelessWidget {
         // the App.build method, and use it to set our appbar title.
         title: Text(this.title),
       ),
-      body: Column(
+      body: ListView(
         children: [
           Image.asset(
             'images/lake.jpg',
